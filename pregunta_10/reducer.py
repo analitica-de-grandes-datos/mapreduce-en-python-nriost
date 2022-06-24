@@ -1,6 +1,6 @@
 import sys
 #
-# >>> Escriba el codigo del reducer a partir de este punto <<<
+# >>> Escriba el codigo del mapper a partir de este punto <<<
 #
 if __name__ == '__main__':
     lista=[]
@@ -21,3 +21,4 @@ if __name__ == '__main__':
             else:
                 sys.stdout.write("{}\t{}".format(line[0],line[1]))
                 curkey = line[0] 
+    
